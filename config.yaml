@@ -1,0 +1,47 @@
+data:
+  scats_path: "data/Scats Data October 2006.xls"
+  traffic_csv_path: "data/Traffic_Count_Locations_with_LONG_LAT.csv"
+  adjacency_path: "data/adjacency.json"
+  sheet_name: "Data"
+
+preprocessing:
+  window_size: 12          # 3 hours of 15-min intervals
+  prediction_horizon: 1    # Predict next 15-min interval
+  train_ratio: 0.7         # 70% train
+  val_ratio: 0.1           # 10% validation (early stopping)
+  scaler: "minmax"         # remaining 20% = test
+
+models:
+  lstm:
+    units: [64, 64]
+    dropout: 0.2
+    epochs: 100
+    batch_size: 32
+    learning_rate: 0.001
+    patience: 10
+  gru:
+    units: [64, 64]
+    dropout: 0.2
+    epochs: 100
+    batch_size: 32
+    learning_rate: 0.001
+    patience: 10
+  random_forest:
+    n_estimators: 200
+    max_depth: 20
+    min_samples_split: 5
+
+traffic:
+  speed_limit: 60          # km/hr
+  intersection_delay: 30   # seconds
+  flow_threshold: 351      # veh/hr below which speed = speed_limit
+  quad_a: -1.4648375
+  quad_b: 93.75
+
+routing:
+  top_k: 5
+  default_algorithm: "AS"
+
+gui:
+  title: "Traffic-Based Route Guidance System - Boroondara"
+  default_time: "08:00"

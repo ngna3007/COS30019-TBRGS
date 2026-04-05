@@ -1,0 +1,418 @@
+{
+  "970": [
+    {
+      "neighbor": 3685,
+      "distance_km": 1.3885
+    }
+  ],
+  "2000": [
+    {
+      "neighbor": 3682,
+      "distance_km": 1.6546
+    },
+    {
+      "neighbor": 3685,
+      "distance_km": 0.3351
+    },
+    {
+      "neighbor": 4273,
+      "distance_km": 4.4797
+    }
+  ],
+  "2200": [
+    {
+      "neighbor": 4063,
+      "distance_km": 1.6029
+    }
+  ],
+  "2820": [
+    {
+      "neighbor": 3662,
+      "distance_km": 1.5808
+    }
+  ],
+  "2825": [
+    {
+      "neighbor": 4030,
+      "distance_km": 1.0017
+    }
+  ],
+  "2827": [
+    {
+      "neighbor": 4051,
+      "distance_km": 1.6234
+    }
+  ],
+  "2846": [
+    {
+      "neighbor": 3685,
+      "distance_km": 3.2276
+    }
+  ],
+  "3001": [
+    {
+      "neighbor": 3002,
+      "distance_km": 0.3728
+    },
+    {
+      "neighbor": 4321,
+      "distance_km": 2.8174
+    },
+    {
+      "neighbor": 4335,
+      "distance_km": 1.4422
+    }
+  ],
+  "3002": [
+    {
+      "neighbor": 3001,
+      "distance_km": 0.3728
+    }
+  ],
+  "3120": [
+    {
+      "neighbor": 3122,
+      "distance_km": 0.6555
+    },
+    {
+      "neighbor": 4035,
+      "distance_km": 0.6043
+    },
+    {
+      "neighbor": 4040,
+      "distance_km": 1.1155
+    }
+  ],
+  "3122": [
+    {
+      "neighbor": 3120,
+      "distance_km": 0.6555
+    },
+    {
+      "neighbor": 3127,
+      "distance_km": 1.1802
+    }
+  ],
+  "3126": [
+    {
+      "neighbor": 3127,
+      "distance_km": 1.8561
+    }
+  ],
+  "3127": [
+    {
+      "neighbor": 3122,
+      "distance_km": 1.1802
+    },
+    {
+      "neighbor": 3126,
+      "distance_km": 1.8561
+    },
+    {
+      "neighbor": 4063,
+      "distance_km": 1.2392
+    }
+  ],
+  "3180": [
+    {
+      "neighbor": 4051,
+      "distance_km": 1.2589
+    },
+    {
+      "neighbor": 4057,
+      "distance_km": 0.9247
+    }
+  ],
+  "3662": [
+    {
+      "neighbor": 2820,
+      "distance_km": 1.5808
+    },
+    {
+      "neighbor": 4335,
+      "distance_km": 0.7249
+    }
+  ],
+  "3682": [
+    {
+      "neighbor": 2000,
+      "distance_km": 1.6546
+    }
+  ],
+  "3685": [
+    {
+      "neighbor": 970,
+      "distance_km": 1.3885
+    },
+    {
+      "neighbor": 2000,
+      "distance_km": 0.3351
+    },
+    {
+      "neighbor": 2846,
+      "distance_km": 3.2276
+    }
+  ],
+  "3804": [
+    {
+      "neighbor": 3812,
+      "distance_km": 0.4663
+    },
+    {
+      "neighbor": 4040,
+      "distance_km": 0.6221
+    }
+  ],
+  "3812": [
+    {
+      "neighbor": 3804,
+      "distance_km": 0.4663
+    }
+  ],
+  "4030": [
+    {
+      "neighbor": 2825,
+      "distance_km": 1.0017
+    },
+    {
+      "neighbor": 4032,
+      "distance_km": 0.721
+    },
+    {
+      "neighbor": 4051,
+      "distance_km": 0.6427
+    }
+  ],
+  "4032": [
+    {
+      "neighbor": 4030,
+      "distance_km": 0.721
+    },
+    {
+      "neighbor": 4034,
+      "distance_km": 1.0628
+    },
+    {
+      "neighbor": 4321,
+      "distance_km": 1.0467
+    }
+  ],
+  "4034": [
+    {
+      "neighbor": 4032,
+      "distance_km": 1.0628
+    },
+    {
+      "neighbor": 4035,
+      "distance_km": 0.6516
+    },
+    {
+      "neighbor": 4063,
+      "distance_km": 1.8355
+    },
+    {
+      "neighbor": 4324,
+      "distance_km": 1.9615
+    }
+  ],
+  "4035": [
+    {
+      "neighbor": 3120,
+      "distance_km": 0.6043
+    },
+    {
+      "neighbor": 4034,
+      "distance_km": 0.6516
+    }
+  ],
+  "4040": [
+    {
+      "neighbor": 3120,
+      "distance_km": 1.1155
+    },
+    {
+      "neighbor": 3804,
+      "distance_km": 0.6221
+    },
+    {
+      "neighbor": 4043,
+      "distance_km": 1.6044
+    },
+    {
+      "neighbor": 4272,
+      "distance_km": 0.7741
+    }
+  ],
+  "4043": [
+    {
+      "neighbor": 4040,
+      "distance_km": 1.6044
+    },
+    {
+      "neighbor": 4273,
+      "distance_km": 0.7897
+    }
+  ],
+  "4051": [
+    {
+      "neighbor": 2827,
+      "distance_km": 1.6234
+    },
+    {
+      "neighbor": 3180,
+      "distance_km": 1.2589
+    },
+    {
+      "neighbor": 4030,
+      "distance_km": 0.6427
+    }
+  ],
+  "4057": [
+    {
+      "neighbor": 3180,
+      "distance_km": 0.9247
+    },
+    {
+      "neighbor": 4063,
+      "distance_km": 1.0943
+    }
+  ],
+  "4063": [
+    {
+      "neighbor": 2200,
+      "distance_km": 1.6029
+    },
+    {
+      "neighbor": 3127,
+      "distance_km": 1.2392
+    },
+    {
+      "neighbor": 4034,
+      "distance_km": 1.8355
+    },
+    {
+      "neighbor": 4057,
+      "distance_km": 1.0943
+    }
+  ],
+  "4262": [
+    {
+      "neighbor": 4263,
+      "distance_km": 0.8987
+    },
+    {
+      "neighbor": 4812,
+      "distance_km": 0.7925
+    },
+    {
+      "neighbor": 4821,
+      "distance_km": 1.1251
+    }
+  ],
+  "4263": [
+    {
+      "neighbor": 4262,
+      "distance_km": 0.8987
+    },
+    {
+      "neighbor": 4264,
+      "distance_km": 0.7956
+    }
+  ],
+  "4264": [
+    {
+      "neighbor": 4263,
+      "distance_km": 0.7956
+    },
+    {
+      "neighbor": 4266,
+      "distance_km": 0.873
+    },
+    {
+      "neighbor": 4270,
+      "distance_km": 0.6317
+    },
+    {
+      "neighbor": 4324,
+      "distance_km": 1.6496
+    }
+  ],
+  "4266": [
+    {
+      "neighbor": 4264,
+      "distance_km": 0.873
+    }
+  ],
+  "4270": [
+    {
+      "neighbor": 4264,
+      "distance_km": 0.6317
+    }
+  ],
+  "4272": [
+    {
+      "neighbor": 4040,
+      "distance_km": 0.7741
+    },
+    {
+      "neighbor": 4273,
+      "distance_km": 1.6279
+    }
+  ],
+  "4273": [
+    {
+      "neighbor": 2000,
+      "distance_km": 4.4797
+    },
+    {
+      "neighbor": 4043,
+      "distance_km": 0.7897
+    },
+    {
+      "neighbor": 4272,
+      "distance_km": 1.6279
+    }
+  ],
+  "4321": [
+    {
+      "neighbor": 3001,
+      "distance_km": 2.8174
+    },
+    {
+      "neighbor": 4032,
+      "distance_km": 1.0467
+    }
+  ],
+  "4324": [
+    {
+      "neighbor": 4034,
+      "distance_km": 1.9615
+    },
+    {
+      "neighbor": 4264,
+      "distance_km": 1.6496
+    }
+  ],
+  "4335": [
+    {
+      "neighbor": 3001,
+      "distance_km": 1.4422
+    },
+    {
+      "neighbor": 3662,
+      "distance_km": 0.7249
+    }
+  ],
+  "4812": [
+    {
+      "neighbor": 4262,
+      "distance_km": 0.7925
+    }
+  ],
+  "4821": [
+    {
+      "neighbor": 4262,
+      "distance_km": 1.1251
+    }
+  ]
+}
