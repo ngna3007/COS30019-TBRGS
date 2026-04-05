@@ -55,7 +55,15 @@ Nguyen Quang Khai & 105560512 & \rule{4cm}{0.4pt} \\[0.5cm]
 
 # Instructions
 
-## Running the System
+## Live Demo
+
+The system is deployed on Streamlit Cloud and can be accessed at:
+
+\url{https://cos30019-tbrgs-klxvd7hjnpvz7xbju9kfiu.streamlit.app/}
+
+Source code: \url{https://github.com/ngna3007/COS30019-TBRGS}
+
+## Running Locally
 
 The program requires Python 3.10+ with dependencies listed in `requirements.txt`. Install them with:
 
