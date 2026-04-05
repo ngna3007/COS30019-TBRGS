@@ -23,8 +23,13 @@ from src.graph_builder import load_adjacency, build_traffic_graph
 from src.route_finder import find_routes
 from src.traffic_conversion import flow_to_speed, flow_15min_to_hourly
 from src.visualization import create_route_map, create_network_map
-from src.models.lstm_model import LSTMTrafficModel
-from src.models.gru_model import GRUTrafficModel
+try:
+    from src.models.lstm_model import LSTMTrafficModel
+    from src.models.gru_model import GRUTrafficModel
+    HAS_TF = True
+except ImportError:
+    HAS_TF = False
+
 from src.models.rf_model import RandomForestTrafficModel
 
 
@@ -53,7 +58,7 @@ def load_trained_models(model_type, site_ids):
                 m = RandomForestTrafficModel()
                 m.load(path)
                 models[site_id] = m
-        else:
+        elif HAS_TF:
             ext = ".keras"
             path = os.path.join(models_dir, f"{model_type}_{site_id}{ext}")
             if os.path.exists(path):
@@ -151,9 +156,8 @@ def main():
 
     day_type = st.sidebar.radio("Day Type", ["Weekday", "Weekend"])
 
-    model_type = st.sidebar.selectbox(
-        "ML Model", ["LSTM", "GRU", "RandomForest"]
-    )
+    model_options = ["LSTM", "GRU", "RandomForest"] if HAS_TF else ["RandomForest"]
+    model_type = st.sidebar.selectbox("ML Model", model_options)
 
     num_routes = st.sidebar.slider("Number of Routes", 1, 5, 5)
 

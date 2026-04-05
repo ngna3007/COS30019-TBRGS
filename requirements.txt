@@ -1,9 +1,6 @@
-tensorflow>=2.10
 pandas
 numpy
 scikit-learn
-statsmodels
-pmdarima
 matplotlib
 seaborn
 streamlit
@@ -11,4 +8,4 @@ folium
 streamlit-folium
 pyyaml
 xlrd
-pytest
+openpyxl
